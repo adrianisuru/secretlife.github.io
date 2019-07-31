@@ -1,0 +1,39 @@
+.color-primary-0 { color: #29506D }	/* Main Primary color */
+.color-primary-1 { color: #718EA4 }
+.color-primary-2 { color: #496D89 }
+.color-primary-3 { color: #123652 }
+.color-primary-4 { color: #042037 }
+
+* {
+    margin: 0;    
+}
+
+body {
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper > * {
+    padding: 20px;
+}
+
+.page-header {
+    background: #718EA4;
+    font-size: 30px;
+}
+
+.page-main {
+    flex-grow: 1;
+    background: #29506D;
+}
+
+.page-footer {
+    background: #123652;
+}
+
+
